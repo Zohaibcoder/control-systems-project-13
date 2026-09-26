@@ -192,13 +192,15 @@ This project is released under the MIT License.
 
 Three architecture diagrams represent the project's progressive build stages:
 
-![Single_axis_Simulink_architecture](Figures/Single_axis_Simulink_architecture.png)
+## Single axis Simulink Architecture
 
 ![Single_axis_Simulink_architecture](Figures/Single_axis_Simulink_architecture.png)
+
+## Coupled Simulink Model
 
 ![Coupled_Simulink_model_wiring](Figures/Coupled_Simulink_model_wiring.png)
 
-![Kalman_Filter_Block](Figures/Kalman_Filter_Block.png)
+## Final Artitecture
 
 ![Final_artitecture](Figures/Final_artitecture.png)
 
