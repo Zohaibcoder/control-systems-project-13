@@ -129,9 +129,7 @@ As a final step beyond the numerical analysis, the vehicle geometry was modeled 
 
 The resulting model, `Simultaneous_Multi_Axis_Disturbance_model`, plays back the exact Phase 6E scenario — simultaneous roll/pitch/yaw commands with a synchronized disturbance pulse — as true 3D motion in Simscape's Mechanics Explorer, viewable from multiple angles simultaneously. This closes the loop between the project's numerical findings and a physically interpretable animation of the same vehicle behavior.
 
-**[Insert video/GIF: `Media/CAD_Simscape_Multibody_Demo.mp4` or a converted `.gif`]**
-
-*(GitHub does not render embedded MP4 in a README — convert a representative clip to GIF for inline display, e.g. via `ffmpeg -i input.mp4 -vf "fps=10,scale=720:-1" output.gif`, and link the full-resolution MP4 as a downloadable asset alongside it.)*
+https://github.com/user-attachments/assets/c9720682-b75f-4527-94af-a7bc3accc11d
 
 ---
 
@@ -183,14 +181,26 @@ This project is released under the MIT License.
 
 ---
 
+
+## Project Cover
+
+![Project_Cover](Figures/Project_Cover.png)
+
+---
+
 ## Simulink Model Architecture
 
 Three architecture diagrams represent the project's progressive build stages:
 
-- `Figures/Phase3_SingleAxis_Architecture.png` — single-axis (roll) plant + P-controller, representative of the Phase 3 build
-- `Figures/Phase4_Coupled_Wiring.png` — the cross-wired roll/pitch/yaw model showing p/q/r rate feedback between axes
-- `Figures/Phase5-8_Full_Architecture.png` — the final architecture: coupled dynamics → IMU sensor model → three Kalman filters → estimated-state feedback, used for every result from Phase 5 onward
-- `Figures/CAD_Simscape_Model.png` — the SolidWorks-derived rigid body inside Simscape Multibody, driven by the Phase 6 simulation data
+![Single_axis_Simulink_architecture](Figures/Single_axis_Simulink_architecture.png)
+
+![Single_axis_Simulink_architecture](Figures/Single_axis_Simulink_architecture.png)
+
+![Coupled_Simulink_model_wiring](Figures/Coupled_Simulink_model_wiring.png)
+
+![Kalman_Filter_Block](Figures/Kalman_Filter_Block.png)
+
+![Final_artitecture](Figures/Final_artitecture.png)
 
 ---
 
