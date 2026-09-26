@@ -184,7 +184,7 @@ This project is released under the MIT License.
 
 ## Project Cover
 
-![Project_Cover](Figures/Project_Cover.png)
+![Project_Cover](Figures/Project_Cover.jpeg)
 
 ---
 
